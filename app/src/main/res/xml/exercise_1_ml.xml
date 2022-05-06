@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@+id/start"
+        motion:duration="6000"
+        motion:motionInterpolator="linear">
+        <OnClick/>
+        <KeyFrameSet>
+            <KeyAttribute
+                motion:framePosition="50"
+                android:rotation="-45"
+                android:scaleX="2"
+                android:scaleY="2"
+                motion:motionTarget="@id/ball" />
+
+            <!-- Point 0,0 origin -->
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="0"
+                motion:percentY="0"
+                motion:framePosition="3"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/square"/>
+
+            <!-- Coordinates that coincide with the x-axis -->
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentY="0"
+                motion:percentX="-0.126"
+                motion:framePosition="15"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentY="0"
+                motion:percentX="0.251"
+                motion:framePosition="27"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="-0.377"
+                motion:percentY="0"
+                motion:framePosition="39"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="0.503"
+                motion:percentY="0"
+                motion:framePosition="51"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="-0.628"
+                motion:percentY="0"
+                motion:framePosition="63"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="0.754"
+                motion:percentY="0"
+                motion:framePosition="75"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+
+            <!-- Coordinates that coincide with the y-axis -->
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentY="0.188"
+                motion:percentX="0"
+                motion:framePosition="21"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="0"
+                motion:percentY="-0.314"
+                motion:framePosition="33"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="0"
+                motion:percentY="0.44"
+                motion:framePosition="45"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="0"
+                motion:percentY="-0.565"
+                motion:framePosition="57"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="0"
+                motion:percentY="0.691"
+                motion:framePosition="69"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+
+            <!--Intermediate coordinates-->
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentY="0.131"
+                motion:percentX="0.185"
+                motion:framePosition="24"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="0.316"
+                motion:percentY="0.347"
+                motion:framePosition="48"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentY="0.13"
+                motion:percentX="-0.098"
+                motion:framePosition="18"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="0.2"
+                motion:percentY="-0.2"
+                motion:framePosition="30"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="-0.235"
+                motion:percentY="-0.251"
+                motion:framePosition="36"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="-0.299"
+                motion:percentY="0.276"
+                motion:framePosition="42"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="0.396"
+                motion:percentY="-0.356"
+                motion:framePosition="54"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="-0.371"
+                motion:percentY="-0.473"
+                motion:framePosition="60"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="-0.498"
+                motion:percentY="0.428"
+                motion:framePosition="66"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentX="0.494"
+                motion:percentY="0.526"
+                motion:framePosition="72"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+            <KeyPosition
+                motion:keyPositionType="pathRelative"
+                motion:percentY="-0.054"
+                motion:percentX="-0.065"
+                motion:framePosition="12"
+                motion:pathMotionArc="startVertical"
+                motion:motionTarget="@id/ball"/>
+
+        </KeyFrameSet>
+
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint android:id="@id/ball"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintHorizontal_bias="0.498">
+
+
+        </Constraint>
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint android:id="@id/ball"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_editor_absoluteY="333dp"
+            motion:layout_editor_absoluteX="239dp">
+
+
+        </Constraint>
+    </ConstraintSet>
+
+
+
+</MotionScene>
